@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro');
+
+
+hr {
+  color: #999999;
+  opacity: .1;
+}
+
+ul {
+
+  list-style: none;
+  padding: 0;
+}
+/*This is part of the header*/
+.App {
+  text-align: center;
+}
+
+.top-bar {
+  display: flex;
+  background-color: #222222;
+  line-height: 2;
+  justify-content: space-between;
+  padding: 0 15px;
+
+}
+
+.part1 {
+
+  font-size: 12px;
+  text-decoration: none;
+
+  color: white;
+  font-weight: bold;
+
+}
+
+ .part2 {
+   color: #2196F3;
+   width: 40%;
+   text-decoration: none;
+
+ }
+
+ .cart {
+   width: 30%;
+   margin: 0 auto;
+ }
+
+
+ .fa-cart-plus {
+   background-color: #FFC107;
+   font-size: 25px;
+   line-height: 2;
+   padding: 5px;
+   cursor: pointer;
+ }
+
+
+/*This is the end part of the header*/
+/*-------------------------------------*/
+/*This part, is the begin of Footer*/
+
+caption {
+  color: #F44336;
+}
+
+.footer-logo-container {
+  width: 3%;
+  margin-left: 50%;
+}
+
+.inline-footer-menu {
+  display: flex;
+  line-height: 40px;
+}
+
+.footer-companies-and-categories {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-left: 100px;
+
+}
+
+.footer-company {
+  height: 150px;
+}
+
+.footer-categories {
+  height: 150px;
+}
+
+.social-networks {
+  margin: 0px 50px 16px 300px;
+}
+
+.socialmedia {
+  letter-spacing: 5px;
+}
+
+/*This is the end of Footer*/
+/*Landing page part*/
+.landing-section {
+  display: block;
+}
+
+.brand-and-slogan {
+  background-image: url('./images/landing-splash-bg.png');
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.favorite-products {
+
+}
+
+.subtitle {
+  color: #999999;
+}
+
+.item {
+    width: 30%;
+    box-shadow: 3px 3px 3px #999999;
+}
+
+.all-products-link {
+  cursor: pointer;
+  border: 1px solid #F44336;
+  padding: 10px 30px;
+  color: #F44366;
+  margin-left: 45%;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+.furniture-type {
+  display: flex;
+  text-align: center;
+  margin-left: 20%;
+
+}
+
+.furniture-type-2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.type {
+  border: 1px solid #2196F3;
+  padding: 10px 40px;
+  color: #2196F3;
+  margin: 30px;
+  cursor: pointer;
+}
+
+/*Landing page ends*/
+/*--------------------------------*/
+/*Terms & Conditions part*/
+
+.declaration {
+  margin: 50px 160px;
+}
+/*Terms & Conditions finalize*/
+/*-------------------------------*/
+/*All products page*/
+
+.product-list {
+    margin: 10px;
+}
+
+.all-items-button {
+    border: 1px solid #F44336;
+    padding: 9px 10px;
+}
+
+.on-sale-button {
+  border: 1px solid #999999;
+  padding: 9px 10px;
+  margin-left: 5px;
+
+}
+
+.items {
+  display: flex;
+  margin-left: 83%;
+}
+
+.showing-items {
+  display: flex;
+  margin-left: 83%;
+  padding: 10px;
+}
+
+.number-of-products {
+  color: #FFC107;
+}
+
+.item-container {
+  box-shadow: 3px 3px 3px #999999;
+  padding: 10px;
+  width: 30%;
+  display: inline-block;
+  margin: 9px;
+}
+
+
+.item-image {
+  width: 100%;
+}
+
+.product-list-container {
+
+}
+
+/*All products page*/
+/*----------------------------------*/
+/*Single product*/
+
+.one-item {
+  width: 60%;
+}
+
+.info-one-item {
+ border: 1px solid #999999;
+}
+
+.subtitle-1 {
+  color: #999999;
+
+}
+
+/*Single product*/
